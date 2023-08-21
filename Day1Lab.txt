@@ -1,0 +1,20 @@
+Lab1 - cmd>git 
+        if git not found -> set path=c:\...git\bin
+       cmd> git
+       cmd> git status 
+          will show error (not a git repo)
+       cmd> check - no hidden directories
+       cmd>cd saamademo\demo1
+       cmd\demo1>git init 
+          check .git folder created
+       create aa.txt ( with 2 lines)
+       cmd\demo1>git add aa.txt 
+            will add this file into stage area
+       cmd\demo1>git status
+       modify aa.txt
+      cmd\demo1>git status 
+            modifications will be noted
+      cmd\demo1>git commit -m "first commit"
+          original aa.txt will be commited, confirm with git status
+      Commit modified aa.txt to repo 
+      show git status, git diff
