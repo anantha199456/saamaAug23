@@ -1,3 +1,24 @@
+Lab2 - Create two versions of same repo
+        get the url of fist repo
+                cmd\demo1>git init 
+                        copy url 
+        create a new folder(demo2)
+                cmd\demo2>git clone url
+                        check the directory structure
+                        create one more file in demo1 (dd.txt)
+                shift file from working directory to staging
+                commit changes to local repo
+        Compare two repos demo1 and  demo2 by using commands
+                git status
+                git log
+        Confirm log (which is latest/ahead...)
+        cmd\demo2>try push command
+                read message
+        cmd\demo1>git pull ...(get the correct dir by git init)
+        cmd\demo1>check directory, git status, git log
+        modify dd.txt with some data
+        use checkout command to reset changes done to dd.txt
+
 Lab1 - cmd>git 
         if git not found -> set path=c:\...git\bin
        cmd> git
