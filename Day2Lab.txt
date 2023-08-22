@@ -1,0 +1,16 @@
+Lab1 - Git + Remote Repo 
+        create personal access tocken on github
+        Git Web app-> Settings-> developer settings ->personal access tockens -> classic tocken
+                ->  generate ->Select scopes -> select repo 
+                   copy tocken 
+     
+        create a new repo in GitWebApp (tmp10may)
+                public, without readme file
+        cmd>cd C:\...\demo1
+        cmd> add 3/4 files, add it staging area and commit changes to local repo    
+        
+        cmd>git remote add myaddr https://{{tocken}}@github.com/Vaishali-Tapaswi/tttt
+        cmd>git push myaddr
+        check on git web app 3 files 
+        modify one file, commit and push and check log on git web app.
+						
