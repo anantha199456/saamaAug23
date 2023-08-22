@@ -9,7 +9,7 @@ Lab4 - In GitWebApp -> create 3 branches
 			will show "This branch has conflicts that must be resolved" 
 				click on resolve conflicts and see changes
 
-Lab3 - Git + Remote Repo + Branches + Conflict
+Lab3 - Git + Remote Repo + multiple users
         create a new repo in GitWebApp (tmprepo)
                 public, with readme file , just observe branch name created is main
         create two folders demo1, demo2 , in both the folders clone same repo
@@ -25,11 +25,11 @@ Lab3 - Git + Remote Repo + Branches + Conflict
 				will show error (Read error)
 			cmd>git pull
 			cmd>git push 
-				Will show error - conflict
+				success
 	
         check on git web app 3 files (readme, aa.txt, bb.txt
 
-Lab2 - Git + Remote Repo + Branches
+Lab2 - Git + Remote Repo 
         create a new repo in GitWebApp (tmprepo)
                 public, with readme file , just observe branch name created is main
         create two folders demo1, demo2 , in both the folders clone same repo
