@@ -1,3 +1,54 @@
+Lab4 - In GitWebApp -> create 3 branches 
+	click on branch, new branch -> dev1, dev2
+	go back to repo, click on dev1 -> add dev.txt (modify content)
+	go back to repo, click on dev2 -> add dev.txt
+
+	go to pull request -> create pull request for dev1 -> confirm, complete
+			should show 'Pull request successfully merged and closed'
+	go to pull request -> create pull request for dev2 -> confirm, 
+			will show "This branch has conflicts that must be resolved" 
+				click on resolve conflicts and see changes
+
+Lab3 - Git + Remote Repo + Branches + Conflict
+        create a new repo in GitWebApp (tmprepo)
+                public, with readme file , just observe branch name created is main
+        create two folders demo1, demo2 , in both the folders clone same repo
+		demo1 - create aa.txt
+		demo2 - create aa.txt
+	in both the folder -> add, commit locally, check log, status
+	Remote Commit 
+	go to Demo1 ->  cmd>git remote add myaddr https://{{tocken}}@github.com/Vaishali-Tapaswi/tmprepo
+        		cmd>git push myaddr
+			successful 	
+	go to Demo2 ->  cmd>git remote add myaddr https://{{tocken}}@github.com/Vaishali-Tapaswi/tmprepo
+        		cmd>git push myaddr
+				will show error (Read error)
+			cmd>git pull
+			cmd>git push 
+				Will show error - conflict
+	
+        check on git web app 3 files (readme, aa.txt, bb.txt
+
+Lab2 - Git + Remote Repo + Branches
+        create a new repo in GitWebApp (tmprepo)
+                public, with readme file , just observe branch name created is main
+        create two folders demo1, demo2 , in both the folders clone same repo
+		demo1 - create aa.txt
+		demo2 - create bb.txt
+	in both the folder -> add, commit locally, check log, status
+	Remote Commit 
+	go to Demo1 ->  cmd>git remote add myaddr https://{{tocken}}@github.com/Vaishali-Tapaswi/tmprepo
+        		cmd>git push myaddr
+			successful 	
+	go to Demo2 ->  cmd>git remote add myaddr https://{{tocken}}@github.com/Vaishali-Tapaswi/tmprepo
+        		cmd>git push myaddr
+				will show error (Read error)
+			cmd>git pull
+			cmd>git push 
+				should be successful
+	
+        check on git web app 3 files (readme, aa.txt, bb.txt
+
 Lab1 - Git + Remote Repo 
         create personal access tocken on github
         Git Web app-> Settings-> developer settings ->personal access tockens -> classic tocken
