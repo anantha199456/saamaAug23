@@ -1,3 +1,19 @@
+Lab2 -  install plugins 
+          create item -> demo1
+                    select freestyle
+              confirm -> in Source Code Management -> only option is none
+              add build step -> use windows batch/shell -> dir/ ls , 
+              save
+          build project 
+                    check console (observe workspace directory )
+
+          Dashboard -> Manage Jenkins -> System Configuration -> Manage plugin
+                    git (select without restart)
+          install plugin
+          create item -> demo2
+                    select freestyle
+              confirm -> in Source Code Management -> git should be shown
+          
 Lab1 - go to url -> http://ec2instance:8080
           Dashboard -> Manage Jenkins -> Security -> Manage Users
           create user / modify admin password -> 
