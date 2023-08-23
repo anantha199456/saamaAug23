@@ -1,0 +1,4 @@
+Lab1 - go to url -> http://ec2instance:8080
+          Dashboard -> Manage Jenkins -> Security -> Manage Users
+          create user / modify admin password -> 
+       confirm login with admin users
